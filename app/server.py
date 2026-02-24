@@ -8,7 +8,7 @@ import traceback
 import json
 import base64
 
-from config import DEFAULT_CONFIGS
+from app.config import DEFAULT_CONFIGS
 from handle_text import prepare_tts_input_with_context
 from tts_handler import generate_speech, generate_speech_stream, get_models_formatted, get_voices, get_voices_formatted
 from utils import getenv_bool, require_api_key, AUDIO_FORMAT_MIME_TYPES, DETAILED_ERROR_LOGGING
